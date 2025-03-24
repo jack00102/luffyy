@@ -1,11 +1,19 @@
 #!name=proxy_list
 [Rule]
+RULE-SET,https://whatshub.top/rule/AntiAD.list,REJECT
 DOMAIN-KEYWORD,whatshub.top,DIRECT
 DOMAIN-SUFFIX,pasyun.com,DIRECT
 DOMAIN-SUFFIX,cloudflare.com,DIRECT
 DOMAIN-SUFFIX,ip.sb,🚀 节点选择
-RULE-SET,https://whatshub.top/rule/YouTube.list,🇵🇱 波兰vmess
-RULE-SET,https://whatshub.top/rule/Telegram.list,🇺🇸 美国节点
-RULE-SET,https://whatshub.top/rule/ai.list,🇺🇸 美国PSY
-RULE-SET,https://whatshub.top/rule/Twitter.list,🇺🇸 美国PSY
-RULE-SET,https://whatshub.top/rule/Twitch.list,🇺🇸 美国PSY
+RULE-SET,https://whatshub.top/rule/ASN-CN.list,DIRECT
+RULE-SET,https://whatshub.top/rule/China.list,DIRECT
+RULE-SET,https://whatshub.top/rule/GitHub.list,🚀 节点选择
+RULE-SET,https://whatshub.top/rule/YouTube.list,📹 油管视频
+RULE-SET,https://whatshub.top/rule/Telegram.list,📲 电报消息
+RULE-SET,https://whatshub.top/rule/ai.list,🤖 Ai
+RULE-SET,https://whatshub.top/rule/Twitter.list,❌ Twitter
+RULE-SET,https://whatshub.top/rule/Twitch.list,👾 Twitch
+RULE-SET,https://whatshub.top/rule/TikTok.list,🎥 TikTok
+RULE-SET,https://whatshub.top/rule/Instagram.list,📹 油管视频
+RULE-SET,https://whatshub.top/rule/Pinterest.list,📹 油管视频
+RULE-SET,https://whatshub.top/rule/Global.list,🚀 节点选择
