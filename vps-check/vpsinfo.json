@@ -48,6 +48,22 @@
     "storeURL": "https://panel8.serv00.com/"
   },
   {
+    "ip": "s8.serv00.com-atest001",
+    "startday": "0000-00-00",
+    "endday": "0000-00-00",
+    "price": "00.00CNY",
+    "store": "SERV00",
+    "storeURL": "https://panel8.serv00.com/"
+  },
+  {
+    "ip": "s9.serv00.com-tomce",
+    "startday": "0000-00-00",
+    "endday": "0000-00-00",
+    "price": "00.00CNY",
+    "store": "SERV00",
+    "storeURL": "https://panel9.serv00.com/"
+  },
+  {
     "ip": "s9.serv00.com-tomre",
     "startday": "0000-00-00",
     "endday": "0000-00-00",
