@@ -1,3 +1,4 @@
+#!name=proxy_list
 [Rule]
 DOMAIN-KEYWORD,whatshub.top,DIRECT
 DOMAIN-SUFFIX,pasyun.com,DIRECT
