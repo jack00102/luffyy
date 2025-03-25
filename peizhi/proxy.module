@@ -1,4 +1,22 @@
 #!name=proxy_list
+[Proxy Group]
+🚀 节点选择 = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选,DIRECT
+🇺🇸 美国PSY = select,汇聚订阅,use=true,policy-regex-filter=q4yzvu9c
+🇺🇸 美国节点 = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=US
+🇵🇱 波兰vmess = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=vmess
+🇵🇱 波兰hy2 = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=hy2
+🇭🇰 香港节点 = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=HK
+🇯🇵 日本节点 = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=Japan
+🇸🇬 新加坡节点 = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=SG
+📶 官方优选 = load-balance,汇聚订阅,use=true,interval=600,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=VISA
+—————————————————— = select,DIRECT,policy-select-name=DIRECT
+📹 油管视频 = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选
+📲 电报消息 = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选
+🤖 Ai = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选
+❌ Twitter = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选
+👾 Twitch = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选
+🎥 TikTok = select,🇺🇸 美国PSY,🇺🇸 美国节点,🇵🇱 波兰vmess,🇵🇱 波兰hy2,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,📶 官方优选
+
 [Rule]
 RULE-SET,https://whatshub.top/rule/AntiAD.list,REJECT
 DOMAIN-KEYWORD,whatshub.top,DIRECT
