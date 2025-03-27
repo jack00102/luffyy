@@ -3,12 +3,10 @@
 8.219.83.42#Singapore-13M/s  
 8.219.145.58#Singapore-13M/s  
 8.219.235.212#Singapore-11M/s  
-8.219.125.105#Singapore-10M/s  
 8.219.103.201#Singapore-10M/s  
 138.2.107.107#Singapore-11M/s  
 129.150.53.218#Singapore-10M/s  
 8.219.146.221#Singapore-9M/s  
-8.219.66.21#Singapore-9M/s  
 8.219.67.144#Singapore-7M/s  
 8.219.50.58#Singapore-7M/s  
 8.219.77.198#Singapore-7M/s  
@@ -16,4 +14,3 @@
 141.147.184.160#Tokyo-6M/s  
 141.147.185.63#Tokyo-6M/s  
 132.145.116.185#Tokyo-6M/s  
-141.147.147.180#Osaka-8M/s  
