@@ -1,5 +1,0 @@
-usa.visa.com#VISA
-myanmar.visa.com#VISA
-www.visaeurope.ch#VISA
-www.visa.com.sg#VISA
-www.visasoutheasteurope.com#VISA
